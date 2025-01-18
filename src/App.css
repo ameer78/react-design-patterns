@@ -1,0 +1,67 @@
+/* General styles for the app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Dark text color */
+}
+
+/* App container */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #343a40; /* Darker gray for the heading */
+  margin-bottom: 2rem;
+}
+
+/* UserProfile card */
+div {
+  background-color: #ffffff; /* White background for card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  margin: 0 auto;
+  padding: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for UserProfile card */
+div:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+}
+
+/* Avatar image */
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* User name */
+h2 {
+  font-size: 1.5rem;
+  color: #007bff; /* Bootstrap blue color */
+  margin: 0.5rem 0;
+}
+
+/* User email */
+p {
+  font-size: 1rem;
+  color: #6c757d; /* Muted text color */
+}
+
+/* Loading message */
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
