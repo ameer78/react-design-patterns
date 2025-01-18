@@ -23,12 +23,14 @@ h1 {
 }
 
 /* UserProfile card */
-div {
+.container {
   background-color: #ffffff; /* White background for card */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border-radius: 8px; /* Rounded corners */
   margin: 0 auto;
+  margin-top: 12px;
   padding: 1.5rem;
+  max-width: 560px;
   transition: transform 0.2s ease-in-out;
 }
 
